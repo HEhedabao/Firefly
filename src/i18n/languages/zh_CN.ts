@@ -103,7 +103,7 @@ export const zh_CN: Translation = {
 	[Key.guestbook]: "留言",
 	[Key.guestbookDescription]: "欢迎在这里留下你的足迹，分享你的想法和建议",
 	[Key.untitled]: "无标题",
-	[Key.uncategorized]: "日常",
+	[Key.uncategorized]: "未分类",
 	[Key.noTags]: "无标签",
 
 	[Key.wordCount]: "字",

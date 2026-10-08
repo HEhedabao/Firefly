@@ -47,3 +47,6 @@ package/
 .codex*
 .claude
 .mimocode
+
+# 本地静态预览服务器（仅本机预览 dist 用）
+preview-server.mjs

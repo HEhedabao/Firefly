@@ -4,7 +4,7 @@ published: 2026-10-08
 description: ''
 image: ''
 tags: []
-category: ''
+category: '日常'
 draft: false
 lang: ''
 slug: "game start"
