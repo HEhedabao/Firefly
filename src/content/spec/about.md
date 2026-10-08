@@ -1,27 +1,25 @@
+你好！我是 **HEhedabao** ，欢迎来到我的小站！
+
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+一个在现实与虚拟世界之间反复横跳的普通人。白天上课（摸鱼），晚上打怪；现实里唯唯诺诺，游戏里重拳出击（偶尔）。
 
-## 🛠️ 关于本站
+**这个博客写什么？**
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+- 🎮 **游戏日志**：通关记录、游戏测评、上头瞬间，以及“再玩一把就睡”结果天亮了的心路历程。
+- 📝 **生活碎片**：日常吐槽、美食探店、偶尔的文艺矫情，还有那些不值得发朋友圈但又想记下来的小事。
+- 💡 **胡思乱想**：游戏与人生的奇妙类比，比如“打BOSS就像还花呗，迟早要面对”。
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+**为什么写博客？**
 
+因为记性不好，想给未来的自己留点证据——证明我确实认真玩过、认真活过。
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+**联系我**
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
-
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
-
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
-
-::github{repo="CuteLeaf/Firefly"}
-
-::github{repo="saicaca/fuwari"}
+如果你也喜欢游戏，或者只是想找个人聊聊生活，欢迎留言！我不一定秒回，但一定会回（除非在打排位或者摸鱼awa）。
 
 ---
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+“人生就像开放世界游戏，主线要推，支线也要做，但最重要的是——别忘了存档。”
 
+希望你喜欢这里，随便逛逛吧！🕹️
