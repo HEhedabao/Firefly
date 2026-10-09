@@ -17,9 +17,9 @@ const config = {
 <!-- Waline -->
 <div class="relative w-full">
   <div id="waline"></div>
-  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+  <link rel="stylesheet" href="https://registry.npmmirror.com/@waline/client/3.16.0/files/dist/waline.css" />
   <script type="module" is:inline define:vars={{ config }}>
-    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+    import { init } from 'https://registry.npmmirror.com/@waline/client/3.16.0/files/dist/waline.js';
     const requestedPath = new URLSearchParams(window.location.search).get("path");
     const effectiveConfig = requestedPath
       ? { ...config, path: requestedPath }

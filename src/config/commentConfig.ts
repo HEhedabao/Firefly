@@ -2,7 +2,7 @@ import type { CommentConfig } from "../types/commentConfig";
 
 export const commentConfig: CommentConfig = {
 	// 评论系统类型: none, twikoo, waline, giscus, disqus, artalk，默认为none，即不启用评论系统
-	type: "none",
+	type: "waline",
 
 	//twikoo评论系统配置
 	twikoo: {
@@ -22,15 +22,15 @@ export const commentConfig: CommentConfig = {
 
 	//waline评论系统配置
 	waline: {
-		// waline 后端服务地址
-		serverURL: "https://waline.vercel.app",
+		// waline 后端服务地址（部署在 Cloudflare Workers 上，数据存于 D1）
+		serverURL: "https://hehedabao-waline.1499264516.workers.dev",
 		// 设置 Waline 评论系统语言
 		lang: "zh-CN",
-		// 设置 Waline 评论系统表情地址
+		// 设置 Waline 评论系统表情地址（使用阿里云 npmmirror 镜像，国内访问更快）
 		emoji: [
-			"https://unpkg.com/@waline/emojis@1.4.0/weibo",
-			"https://unpkg.com/@waline/emojis@1.4.0/bilibili",
-			"https://unpkg.com/@waline/emojis@1.4.0/bmoji",
+			"https://registry.npmmirror.com/@waline/emojis/1.4.0/files/weibo",
+			"https://registry.npmmirror.com/@waline/emojis/1.4.0/files/bilibili",
+			"https://registry.npmmirror.com/@waline/emojis/1.4.0/files/bmoji",
 		],
 		// 评论登录模式。可选值如下：
 		//   'enable'   —— 默认，允许访客匿名评论和用第三方 OAuth 登录评论，兼容性最佳。
