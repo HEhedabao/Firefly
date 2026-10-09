@@ -50,3 +50,6 @@ package/
 
 # 本地静态预览服务器（仅本机预览 dist 用）
 preview-server.mjs
+
+# wrangler 本地开发产生的状态目录
+.wrangler/

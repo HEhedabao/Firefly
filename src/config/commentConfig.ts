@@ -22,8 +22,10 @@ export const commentConfig: CommentConfig = {
 
 	//waline评论系统配置
 	waline: {
-		// waline 后端服务地址（部署在 Cloudflare Workers 上，数据存于 D1）
-		serverURL: "https://hehedabao-waline.1499264516.workers.dev",
+		// Waline 后端实际部署在 Cloudflare Workers 上，但 workers.dev 域名在国内被 DNS 污染，
+		// 所以这里指向本站域名，由 functions/api/[[path]].js 反向代理到 Worker。
+		// 这样国内访客无需代理即可评论。
+		serverURL: "https://he-nbw.pages.dev",
 		// 设置 Waline 评论系统语言
 		lang: "zh-CN",
 		// 设置 Waline 评论系统表情地址（使用阿里云 npmmirror 镜像，国内访问更快）
